@@ -48,6 +48,87 @@ p{
     font-weight: 400;
 }
 
+
+.sobremi h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #373A3C;
+}
+
+.sobremi p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 2.5em;
+    color: #373A3C;
+}
+
+.line{
+    width: 20%;
+    max-width: 150px;
+    min-width: 150px;
+    height: 2px;
+    background: #373A3C;
+    margin: 5% auto;
+}
+.experiencia h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+}
+.exp{
+    margin-bottom: 20px;
+}
+.exp h1{
+    font-size: 1.6em;
+    text-transform: inherit;
+    font-weight: 700;
+}
+.exp h2{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: inherit;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.exp p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.trabajos{
+    padding: 5% 0;
+}
+.trabajos h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+.trabajos .line{
+    background-color: #ffffff;
+}
+
+.cont-trabajos{
+    margin-bottom: 30px;
+    transition: all 0.2s ease-in;
+}
+.cont-trabajos a{
+    text-decoration: none;
+    color: inherit;
+}
+.cont-trabajos:hover{
+    transform: scale(1.05);
+}
+.cont-trabajos h5{
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.cont-trabajos p{
+    font-weight: 300;
+    font-size: 1em;
+}
+
 @media only screen and (max-width: 770px) {
     .main{
         background-position: center;
