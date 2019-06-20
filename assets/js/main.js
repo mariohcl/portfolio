@@ -1,9 +1,9 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-$(function (){
-    $("a").click(function(event){
+$(document).ready(function () {
+    /*Tooltip*/
+  $('[data-toggle="tooltip"]').tooltip();
+    
+    /*Smoth menú*/
+     $("a").click(function(event){
         if (this.hash !== "") {
             event.preventDefault();
             
@@ -16,4 +16,5 @@ $(function (){
             });
         }
     });
-});
+    
+})
