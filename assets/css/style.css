@@ -128,6 +128,23 @@ p{
     font-weight: 300;
     font-size: 1em;
 }
+.contacto{
+    padding: 5% 0;
+}
+.contacto h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+}
+footer{
+    padding: 3% 0;
+}
+footer a{
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 770px) {
     .main{
