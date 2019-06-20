@@ -47,7 +47,9 @@ p{
     color: white;
     font-weight: 400;
 }
-
+.sobremi{
+    padding: 5% 0 0 0;
+}
 
 .sobremi h3{
     font-family: 'Open Sans', sans-serif;
@@ -72,6 +74,9 @@ p{
     height: 2px;
     background: #373A3C;
     margin: 5% auto;
+}
+.experiencia{
+    padding: 5% 0 0 0;
 }
 .experiencia h1{
     text-transform: uppercase;
@@ -128,6 +133,34 @@ p{
     font-weight: 300;
     font-size: 1em;
 }
+.carousel-logos{
+    background: #ececec;
+    padding: 5% 0;
+}
+.carousel-logos h1{
+    font-weight: 600;
+}
+.carousel-item img{
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.2s ease-in;
+}
+.carousel-item img:hover{
+    filter: inherit;
+}
+.carousel-indicators {
+    bottom: -40%;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #373a3C;
+}
 .contacto{
     padding: 5% 0;
 }
@@ -145,7 +178,9 @@ footer a{
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.icon-nav{
+    text-align: right;
+}
 @media only screen and (max-width: 770px) {
     .main{
         background-position: center;
@@ -153,4 +188,11 @@ footer a{
     .main h1, .main h2{
         font-size: 3em;
     }
+    .row div{
+        text-align: center;
+    }
+    .icon-nav{
+        margin: 5% 0; 
+        text-align: center;
+}
 }

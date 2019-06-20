@@ -40,16 +40,16 @@
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto">
            <li class="nav-item active d-none d-lg-block">
-             <a class="nav-link text-white" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+             <a class="nav-link text-white" href="#sobremi">Sobre mi <span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link text-white" href="#">Experiencia</a>
+             <a class="nav-link text-white" href="#experiencia">Experiencia</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link text-white" href="#">Trabajos</a>
+             <a class="nav-link text-white" href="#trabajos">Trabajos</a>
            </li>
             <li class="nav-item">
-             <a class="nav-link text-white" href="#">Contacto</a>
+             <a class="nav-link text-white" href="#contacto">Contacto</a>
            </li>
         </ul>
        </div>
@@ -63,6 +63,7 @@
      <div class="container text-center pb-5">
          <h1 class="border-bottom border-bottom-1 pb-3">Soy Mario H.</h1>
          <h2>Web Dev</h2>
+         <a href="#contacto">contactame</a>
      </div>
  </section>
  <!--Fin Main Section-->
@@ -234,6 +235,70 @@
      </section>
  </section>
  <!--Fin Trabajos-->
+ 
+ <!--Carousel-->
+ <section class="mb-5 d-md-block d-none carousel-logos">
+    <div class="container pb-3">
+                     
+       <h1 class="text-center">Algunos de mis clientes</h1>
+                      
+        <div class="col-12 px-0 pt-4 pb-5">
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row">
+                  
+                  <div class="col-3">
+                    <img src="assets/img/cliente-01.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  
+                  <div class="col-3">
+                    <img src="assets/img/cliente-02.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  
+                  <div class="col-3">
+                    <img src="assets/img/cliente-03.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  
+                  <div class="col-3">
+                    <img src="assets/img/cliente-04.jpg" alt="Clientes Mario Hernández">
+                  </div>
+
+                  
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="assets/img/cliente-05.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cliente-06.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/cliente-07.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                  <div class="col-3">
+                   <img src="assets/img/cliente-08.jpg" alt="Clientes Mario Hernández">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+   </div>
+</section>
+ <!--Fin Carousel-->
   
  <!--Contacto-->
  <section class="contacto" id="contacto">
@@ -252,31 +317,24 @@
  
  <!--Footer-->
  <footer class="color-fondo">
+    
      <div class="container">
+       
         <div class="row">
+        
          
-          <div class="col-6 align-middle">
-              <a href="#" class="text-white">MarioH.</a>
-          </div>
-          
-          <div class="col-6 text-right">
-               <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#"><i class="fab fa-github"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              
-            </ul>
-          </div>
+              <div class="col-lg-2 col-12 align-middle">
+                  <a href="#" class="text-white">MarioH.</a>
+              </div>
 
+              <div class="col-lg-10 col-12 icon-nav">
+              
+               <a href="https://www.instagram.com/marioh.cl/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+               <a href="https://github.com/mariohcl" target="_blank" class="text-white mx-2"><i class="fab fa-github"></i></a>
+               <a href="https://twitter.com/maritowip" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.linkedin.com/in/mario-hern%C3%A1ndez-hormaz%C3%A1bal-3838ba26/" target="_blank" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+               
+              </div>
         </div>
      </div>
  </footer>
@@ -284,7 +342,8 @@
   
    
    <!--Jquery-->
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
    
    <!--Popper-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
